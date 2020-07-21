@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Involve Asia Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://kit.fontawesome.com/b144e30b53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="logo">
+        <i class="fas fa-cloud"></i>
+        <h>Involve <span>Asia</span></h>
+    </div>
+    <div class="back">
+    <h2>To add revenue group.</h2>
+    <p2>Click the button</p2>
+    <button class="open">Add revenue</button>
+    </div>
+    
+    <div class="modal-container">
+    <div class="modal">
+        <div class="close">
+            <i id ="close" class="fas fa-times"></i>
+        </div>
+        <h1>Add revenue group</h1>
+        <form>
+            <label for="fname">Revenue group title:</label><br>
+            <input type="text" id="plain" name="text">
+
+            <div class="dropdown">
+            <label for="dropdown">If</label><br>
+            <select id="dropdown" name="dropdown">
+                <option value="ALL">All</option>
+                <option value="10%">10%</option>
+                <option value="20%">20%</option>
+                <option value="50%">50%</option>
+              </select>
+              <label for="dropdownn" id="dropdown">of the below conditions are met</label>
+              </div>
+
+              <div class="flex-box">
+              <div class="flex">
+              <div class="dropdown-2">
+                <select id="sub" name="sub">
+                    <option value="aff">Aff_sub</option>
+                    <option value="aff">Aff-sub</option>
+                    <option value="aff">sub-aff</option>
+                    <option value="audi">aff-sub</option>
+                  </select>
+              </div>
+              <div class="dropdown-3">
+                <select id="is" name="is">
+                    <option value="aff">is</option>
+                    <option value="aff">is</option>
+                  </select>
+              </div>
+              <div class="plain-text">
+                <input type="text" id="plain-text" name="text">
+              </div>
+              
+              <button class="add"><i class="fas fa-plus"></i></button>
+              <button class="remove"><i class="fas fa-minus"></i></button>
+              </form>
+              </div>
+            </div>
+                   
+           <div class="flex-2">
+                  <p>Then revenue is</p>
+                  <input type="number" id="number" name="text">
+                  <i class="fas fa-percentage"></i>
+              </div>
+              <div class="btn-bottom">
+                  <button id="orange">Confirm</button>
+                  <button id="grey">Cancel</button>
+              </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

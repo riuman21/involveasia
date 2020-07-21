@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url(ckk.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+/* Logo */
+
+.logo {
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.logo h {
+    font-family: 'Courgette', cursive;
+}
+
+.logo span {
+    color: #E97000;
+    font-family: 'Courgette', cursive;
+}
+/* Background */
+
+.back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+    color: white;
+}
+
+.back h2 {
+    font-size: 3.5rem;
+}
+
+.back p2 {
+    font-size: 1.9rem;
+
+}
+.open {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.1rem;
+    background-color: #E97000;
+    color: white;
+    font-weight: bold;
+}
+
+.open:hover {
+    background-color: #B95900;
+}
+
+/* Model Container */
+
+.modal-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity .9s;   
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Modal */
+
+.modal {
+    width: 960px;
+    max-width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.modal h1 {
+    font-size: 2rem;
+}
+
+/* Box modal close button */
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+#close  {
+    color: black;
+}
+
+#close:hover {
+    color: grey;
+}
+
+
+/* Style for all input */
+
+input {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Second section */
+
+.dropdown {
+    display: flex;
+    margin-top: 25px;
+}
+
+#dropdown {
+    margin-left: 10px;
+    padding: 3px;
+}
+
+/* Third ssection */
+
+.flex {
+    display: flex;
+    margin-top: 25px;
+    padding: 15px;
+    padding-bottom: 20px;
+    background-color: #E2E2E2;
+    border-radius: 5px;
+}
+
+.dropdown-2 , .dropdown-3 {
+    padding-top: 13px;
+    padding-right: 10px;
+}
+
+#is , #sub {
+    padding: 5px;
+    font-size: 1rem;
+}
+.plain-text {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.add , .remove {
+    cursor: pointer;
+    font-size: .9rem;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 9px;
+    margin-right: 5px;
+    margin-left: 4px ;
+}
+
+.add {
+    background-color: green;
+    color: white;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+}
+
+.add:hover {
+    background-color:  #0ECA03;
+}
+
+.remove:hover {
+    background-color: #FA5151;
+}
+
+
+/* Fourth section */
+
+.flex-2 {
+    display: flex;
+    margin-top:  30px;
+    position: relative;
+}
+
+.flex-2 p {
+    font-size: 1em;
+}
+
+#number {
+    height: 55px;
+    margin-left: 5px;
+    
+}
+
+.flex-2 i {
+    color: grey;
+    position: absolute;
+    top: 28px;
+    right: 10px;
+}
+
+/* Bottom Button */
+
+.btn-bottom {
+    margin-top: 30px;
+}
+
+#orange {
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    margin-right: 15px;
+    background-color: #FFB309;
+    border-radius: 5px;
+    font-size: .9em;
+}
+
+#grey {
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    background-color:#D6D6D5 ;
+    border-radius: 5px;
+    font-size: .9em;
+}
+
+#orange:hover {
+    background-color: #E67002;
+}
